@@ -28,6 +28,12 @@ pipeline {
       }
     }
 
+    stage('archive') {
+      steps {
+        sleep 10
+      }
+    }
+
   }
   tools {
     nodejs 'nodejs'
